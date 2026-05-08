@@ -51,8 +51,15 @@ public:
     void swap(UniquePtr& other);
 
 private:
-    T*      ptr_ = nullptr;
-    Deleter deleter_;
+    struct CompressedPtr : Deleter {
+        T* ptr;
+        CompressedPtr() : Deleter(), ptr(nullptr) {}
+        CompressedPtr(T* p) : Deleter(), ptr(p) {}
+        CompressedPtr(T* p, const Deleter& d) : Deleter(d), ptr(p) {}
+        CompressedPtr(T* p, Deleter&& d) : Deleter(std::move(d)), ptr(p) {}
+    };
+
+    CompressedPtr impl_;
 };
 
 // =====================================================================
@@ -105,11 +112,167 @@ public:
     void swap(UniquePtr& other);
 
 private:
-    T*      ptr_ = nullptr;
-    Deleter deleter_;
+    struct CompressedPtr : Deleter {
+        T* ptr;
+        CompressedPtr() : Deleter(), ptr(nullptr) {}
+        CompressedPtr(T* p) : Deleter(), ptr(p) {}
+        CompressedPtr(T* p, const Deleter& d) : Deleter(d), ptr(p) {}
+        CompressedPtr(T* p, Deleter&& d) : Deleter(std::move(d)), ptr(p) {}
+    };
+
+    CompressedPtr impl_;
 };
 
 // =================== Free function ===============================
 
 template <typename T, typename... Args>
 UniquePtr<T> make_unique(Args&&... args);
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::UniquePtr() : impl_() {}
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::UniquePtr(T* ptr) : impl_(ptr) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::UniquePtr(T* ptr, const Deleter& d) : impl_(ptr, d) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::UniquePtr(T* ptr, Deleter&& d) : impl_(ptr, std::move(d)) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::UniquePtr(UniquePtr&& other) : impl_(other.release(), std::move(other.get_deleter())) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>& UniquePtr<T, Deleter>::operator=(UniquePtr&& other) {
+    if (this != &other) {
+        reset(other.release());
+        get_deleter() = std::move(other.get_deleter());
+    }
+    return *this;
+}
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::~UniquePtr() { reset(); }
+
+template <typename T, typename Deleter>
+T* UniquePtr<T, Deleter>::get() { return impl_.ptr; }
+
+template <typename T, typename Deleter>
+const T* UniquePtr<T, Deleter>::get() const { return impl_.ptr; }
+
+template <typename T, typename Deleter>
+UniquePtr<T, Deleter>::operator bool() const { return impl_.ptr != nullptr; }
+
+template <typename T, typename Deleter>
+T& UniquePtr<T, Deleter>::operator*() { return *impl_.ptr; }
+
+template <typename T, typename Deleter>
+const T& UniquePtr<T, Deleter>::operator*() const { return *impl_.ptr; }
+
+template <typename T, typename Deleter>
+T* UniquePtr<T, Deleter>::operator->() { return impl_.ptr; }
+
+template <typename T, typename Deleter>
+const T* UniquePtr<T, Deleter>::operator->() const { return impl_.ptr; }
+
+template <typename T, typename Deleter>
+Deleter& UniquePtr<T, Deleter>::get_deleter() { return static_cast<Deleter&>(impl_); }
+
+template <typename T, typename Deleter>
+const Deleter& UniquePtr<T, Deleter>::get_deleter() const { return static_cast<const Deleter&>(impl_); }
+
+template <typename T, typename Deleter>
+T* UniquePtr<T, Deleter>::release() {
+    T* temp = impl_.ptr;
+    impl_.ptr = nullptr;
+    return temp;
+}
+
+template <typename T, typename Deleter>
+void UniquePtr<T, Deleter>::reset(T* ptr) {
+    T* old_ptr = impl_.ptr;
+    impl_.ptr = ptr;
+    if (old_ptr) get_deleter()(old_ptr);
+}
+
+template <typename T, typename Deleter>
+void UniquePtr<T, Deleter>::swap(UniquePtr& other) {
+    std::swap(impl_.ptr, other.impl_.ptr);
+    std::swap(get_deleter(), other.get_deleter());
+}
+
+// Specialization for T[]
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::UniquePtr() : impl_() {}
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::UniquePtr(T* ptr) : impl_(ptr) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::UniquePtr(T* ptr, const Deleter& d) : impl_(ptr, d) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::UniquePtr(T* ptr, Deleter&& d) : impl_(ptr, std::move(d)) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::UniquePtr(UniquePtr&& other) : impl_(other.release(), std::move(other.get_deleter())) {}
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>& UniquePtr<T[], Deleter>::operator=(UniquePtr&& other) {
+    if (this != &other) {
+        reset(other.release());
+        get_deleter() = std::move(other.get_deleter());
+    }
+    return *this;
+}
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::~UniquePtr() { reset(); }
+
+template <typename T, typename Deleter>
+T* UniquePtr<T[], Deleter>::get() { return impl_.ptr; }
+
+template <typename T, typename Deleter>
+const T* UniquePtr<T[], Deleter>::get() const { return impl_.ptr; }
+
+template <typename T, typename Deleter>
+UniquePtr<T[], Deleter>::operator bool() const { return impl_.ptr != nullptr; }
+
+template <typename T, typename Deleter>
+T& UniquePtr<T[], Deleter>::operator[](size_t i) { return impl_.ptr[i]; }
+
+template <typename T, typename Deleter>
+const T& UniquePtr<T[], Deleter>::operator[](size_t i) const { return impl_.ptr[i]; }
+
+template <typename T, typename Deleter>
+Deleter& UniquePtr<T[], Deleter>::get_deleter() { return static_cast<Deleter&>(impl_); }
+
+template <typename T, typename Deleter>
+const Deleter& UniquePtr<T[], Deleter>::get_deleter() const { return static_cast<const Deleter&>(impl_); }
+
+template <typename T, typename Deleter>
+T* UniquePtr<T[], Deleter>::release() {
+    T* temp = impl_.ptr;
+    impl_.ptr = nullptr;
+    return temp;
+}
+
+template <typename T, typename Deleter>
+void UniquePtr<T[], Deleter>::reset(T* ptr) {
+    T* old_ptr = impl_.ptr;
+    impl_.ptr = ptr;
+    if (old_ptr) get_deleter()(old_ptr);
+}
+
+template <typename T, typename Deleter>
+void UniquePtr<T[], Deleter>::swap(UniquePtr& other) {
+    std::swap(impl_.ptr, other.impl_.ptr);
+    std::swap(get_deleter(), other.get_deleter());
+}
+
+template <typename T, typename... Args>
+UniquePtr<T> make_unique(Args&&... args) {
+    return UniquePtr<T>(new T(std::forward<Args>(args)...));
+}
