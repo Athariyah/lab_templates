@@ -1,10 +1,10 @@
-Start testing: May 08 19:50 MSK
+Start testing: May 08 19:54 MSK
 ----------------------------------------------------------
 1/102 Testing: ArrayBasic.DefaultConstructor
 1/102 Test: ArrayBasic.DefaultConstructor
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayBasic.DefaultConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayBasic.DefaultConstructor" start time: May 08 19:50 MSK
+"ArrayBasic.DefaultConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -13,17 +13,17 @@ Note: Google Test filter = ArrayBasic.DefaultConstructor
 [----------] Global test environment set-up.
 [----------] 1 test from ArrayBasic
 [ RUN      ] ArrayBasic.DefaultConstructor
-[       OK ] ArrayBasic.DefaultConstructor (1 ms)
-[----------] 1 test from ArrayBasic (1 ms total)
+[       OK ] ArrayBasic.DefaultConstructor (0 ms)
+[----------] 1 test from ArrayBasic (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (3 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayBasic.DefaultConstructor" end time: May 08 19:50 MSK
+"ArrayBasic.DefaultConstructor" end time: May 08 19:54 MSK
 "ArrayBasic.DefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/102 Test: ArrayBasic.SizeConstructor
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayBasic.SizeConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayBasic.SizeConstructor" start time: May 08 19:50 MSK
+"ArrayBasic.SizeConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -47,10 +47,10 @@ Note: Google Test filter = ArrayBasic.SizeConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayBasic.SizeConstructor" end time: May 08 19:50 MSK
+"ArrayBasic.SizeConstructor" end time: May 08 19:54 MSK
 "ArrayBasic.SizeConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/102 Test: ArrayBasic.SizeValueConstructor
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayBasic.SizeValueConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayBasic.SizeValueConstructor" start time: May 08 19:50 MSK
+"ArrayBasic.SizeValueConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = ArrayBasic.SizeValueConstructor
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayBasic.SizeValueConstructor" end time: May 08 19:50 MSK
+"ArrayBasic.SizeValueConstructor" end time: May 08 19:54 MSK
 "ArrayBasic.SizeValueConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/102 Test: ArrayBasic.SizeZero
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayBasic.SizeZero" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayBasic.SizeZero" start time: May 08 19:50 MSK
+"ArrayBasic.SizeZero" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -98,13 +98,13 @@ Note: Google Test filter = ArrayBasic.SizeZero
 [----------] 1 test from ArrayBasic (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (11 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayBasic.SizeZero" end time: May 08 19:50 MSK
+"ArrayBasic.SizeZero" end time: May 08 19:54 MSK
 "ArrayBasic.SizeZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/102 Test: ArrayAccess.Subscript
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayAccess.Subscript" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayAccess.Subscript" start time: May 08 19:50 MSK
+"ArrayAccess.Subscript" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -122,16 +122,16 @@ Note: Google Test filter = ArrayAccess.Subscript
 [----------] 1 test from ArrayAccess
 [ RUN      ] ArrayAccess.Subscript
 [       OK ] ArrayAccess.Subscript (0 ms)
-[----------] 1 test from ArrayAccess (0 ms total)
+[----------] 1 test from ArrayAccess (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayAccess.Subscript" end time: May 08 19:50 MSK
+"ArrayAccess.Subscript" end time: May 08 19:54 MSK
 "ArrayAccess.Subscript" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/102 Test: ArrayAccess.ConstSubscript
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayAccess.ConstSubscript" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayAccess.ConstSubscript" start time: May 08 19:50 MSK
+"ArrayAccess.ConstSubscript" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -155,10 +155,10 @@ Note: Google Test filter = ArrayAccess.ConstSubscript
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayAccess.ConstSubscript" end time: May 08 19:50 MSK
+"ArrayAccess.ConstSubscript" end time: May 08 19:54 MSK
 "ArrayAccess.ConstSubscript" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/102 Test: ArrayAccess.FrontBack
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayAccess.FrontBack" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayAccess.FrontBack" start time: May 08 19:50 MSK
+"ArrayAccess.FrontBack" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -182,10 +182,10 @@ Note: Google Test filter = ArrayAccess.FrontBack
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayAccess.FrontBack" end time: May 08 19:50 MSK
+"ArrayAccess.FrontBack" end time: May 08 19:54 MSK
 "ArrayAccess.FrontBack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/102 Test: ArrayAccess.ConstFrontBack
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayAccess.ConstFrontBack" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayAccess.ConstFrontBack" start time: May 08 19:50 MSK
+"ArrayAccess.ConstFrontBack" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -206,13 +206,13 @@ Note: Google Test filter = ArrayAccess.ConstFrontBack
 [----------] 1 test from ArrayAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayAccess.ConstFrontBack" end time: May 08 19:50 MSK
+"ArrayAccess.ConstFrontBack" end time: May 08 19:54 MSK
 "ArrayAccess.ConstFrontBack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/102 Test: ArrayAccess.Data
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayAccess.Data" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayAccess.Data" start time: May 08 19:50 MSK
+"ArrayAccess.Data" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -233,13 +233,13 @@ Note: Google Test filter = ArrayAccess.Data
 [----------] 1 test from ArrayAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayAccess.Data" end time: May 08 19:50 MSK
+"ArrayAccess.Data" end time: May 08 19:54 MSK
 "ArrayAccess.Data" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/102 Test: ArrayCopy.CopyConstructor
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayCopy.CopyConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayCopy.CopyConstructor" start time: May 08 19:50 MSK
+"ArrayCopy.CopyConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -260,13 +260,13 @@ Note: Google Test filter = ArrayCopy.CopyConstructor
 [----------] 1 test from ArrayCopy (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (9 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.14 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayCopy.CopyConstructor" end time: May 08 19:50 MSK
+"ArrayCopy.CopyConstructor" end time: May 08 19:54 MSK
 "ArrayCopy.CopyConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/102 Test: ArrayCopy.CopyAssignment
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayCopy.CopyAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayCopy.CopyAssignment" start time: May 08 19:50 MSK
+"ArrayCopy.CopyAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -287,13 +287,13 @@ Note: Google Test filter = ArrayCopy.CopyAssignment
 [----------] 1 test from ArrayCopy (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayCopy.CopyAssignment" end time: May 08 19:50 MSK
+"ArrayCopy.CopyAssignment" end time: May 08 19:54 MSK
 "ArrayCopy.CopyAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/102 Test: ArrayCopy.SelfAssignment
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayCopy.SelfAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayCopy.SelfAssignment" start time: May 08 19:50 MSK
+"ArrayCopy.SelfAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -311,16 +311,16 @@ Note: Google Test filter = ArrayCopy.SelfAssignment
 [----------] 1 test from ArrayCopy
 [ RUN      ] ArrayCopy.SelfAssignment
 [       OK ] ArrayCopy.SelfAssignment (0 ms)
-[----------] 1 test from ArrayCopy (0 ms total)
+[----------] 1 test from ArrayCopy (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayCopy.SelfAssignment" end time: May 08 19:50 MSK
+"ArrayCopy.SelfAssignment" end time: May 08 19:54 MSK
 "ArrayCopy.SelfAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/102 Test: ArrayMove.MoveConstructor
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayMove.MoveConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayMove.MoveConstructor" start time: May 08 19:50 MSK
+"ArrayMove.MoveConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -341,13 +341,13 @@ Note: Google Test filter = ArrayMove.MoveConstructor
 [----------] 1 test from ArrayMove (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayMove.MoveConstructor" end time: May 08 19:50 MSK
+"ArrayMove.MoveConstructor" end time: May 08 19:54 MSK
 "ArrayMove.MoveConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/102 Test: ArrayMove.MoveAssignment
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayMove.MoveAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayMove.MoveAssignment" start time: May 08 19:50 MSK
+"ArrayMove.MoveAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -368,13 +368,13 @@ Note: Google Test filter = ArrayMove.MoveAssignment
 [----------] 1 test from ArrayMove (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (10 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.12 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayMove.MoveAssignment" end time: May 08 19:50 MSK
+"ArrayMove.MoveAssignment" end time: May 08 19:54 MSK
 "ArrayMove.MoveAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -382,7 +382,7 @@ Test Passed.
 15/102 Test: ArrayOps.Fill
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayOps.Fill" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayOps.Fill" start time: May 08 19:50 MSK
+"ArrayOps.Fill" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -391,17 +391,17 @@ Note: Google Test filter = ArrayOps.Fill
 [----------] Global test environment set-up.
 [----------] 1 test from ArrayOps
 [ RUN      ] ArrayOps.Fill
-[       OK ] ArrayOps.Fill (1 ms)
-[----------] 1 test from ArrayOps (1 ms total)
+[       OK ] ArrayOps.Fill (0 ms)
+[----------] 1 test from ArrayOps (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayOps.Fill" end time: May 08 19:50 MSK
+"ArrayOps.Fill" end time: May 08 19:54 MSK
 "ArrayOps.Fill" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,7 +409,7 @@ Test Passed.
 16/102 Test: ArrayOps.Swap
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayOps.Swap" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayOps.Swap" start time: May 08 19:50 MSK
+"ArrayOps.Swap" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -422,13 +422,13 @@ Note: Google Test filter = ArrayOps.Swap
 [----------] 1 test from ArrayOps (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayOps.Swap" end time: May 08 19:50 MSK
+"ArrayOps.Swap" end time: May 08 19:54 MSK
 "ArrayOps.Swap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -436,7 +436,7 @@ Test Passed.
 17/102 Test: ArrayComparison.Equal
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayComparison.Equal" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayComparison.Equal" start time: May 08 19:50 MSK
+"ArrayComparison.Equal" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -449,13 +449,13 @@ Note: Google Test filter = ArrayComparison.Equal
 [----------] 1 test from ArrayComparison (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayComparison.Equal" end time: May 08 19:50 MSK
+"ArrayComparison.Equal" end time: May 08 19:54 MSK
 "ArrayComparison.Equal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -463,7 +463,7 @@ Test Passed.
 18/102 Test: ArrayComparison.NotEqualValues
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayComparison.NotEqualValues" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayComparison.NotEqualValues" start time: May 08 19:50 MSK
+"ArrayComparison.NotEqualValues" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -479,10 +479,10 @@ Note: Google Test filter = ArrayComparison.NotEqualValues
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayComparison.NotEqualValues" end time: May 08 19:50 MSK
+"ArrayComparison.NotEqualValues" end time: May 08 19:54 MSK
 "ArrayComparison.NotEqualValues" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -490,7 +490,7 @@ Test Passed.
 19/102 Test: ArrayComparison.NotEqualSizes
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayComparison.NotEqualSizes" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayComparison.NotEqualSizes" start time: May 08 19:50 MSK
+"ArrayComparison.NotEqualSizes" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -503,13 +503,13 @@ Note: Google Test filter = ArrayComparison.NotEqualSizes
 [----------] 1 test from ArrayComparison (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayComparison.NotEqualSizes" end time: May 08 19:50 MSK
+"ArrayComparison.NotEqualSizes" end time: May 08 19:54 MSK
 "ArrayComparison.NotEqualSizes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -517,7 +517,7 @@ Test Passed.
 20/102 Test: ArrayComparison.BothEmpty
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayComparison.BothEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayComparison.BothEmpty" start time: May 08 19:50 MSK
+"ArrayComparison.BothEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -533,10 +533,10 @@ Note: Google Test filter = ArrayComparison.BothEmpty
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayComparison.BothEmpty" end time: May 08 19:50 MSK
+"ArrayComparison.BothEmpty" end time: May 08 19:54 MSK
 "ArrayComparison.BothEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -544,7 +544,7 @@ Test Passed.
 21/102 Test: ArrayString.WorksWithStrings
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=ArrayString.WorksWithStrings" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"ArrayString.WorksWithStrings" start time: May 08 19:50 MSK
+"ArrayString.WorksWithStrings" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -557,13 +557,13 @@ Note: Google Test filter = ArrayString.WorksWithStrings
 [----------] 1 test from ArrayString (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ArrayString.WorksWithStrings" end time: May 08 19:50 MSK
+"ArrayString.WorksWithStrings" end time: May 08 19:54 MSK
 "ArrayString.WorksWithStrings" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -571,7 +571,7 @@ Test Passed.
 22/102 Test: TrackedTest.ArrayDestructor
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=TrackedTest.ArrayDestructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.ArrayDestructor" start time: May 08 19:50 MSK
+"TrackedTest.ArrayDestructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -587,10 +587,10 @@ Note: Google Test filter = TrackedTest.ArrayDestructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.ArrayDestructor" end time: May 08 19:50 MSK
+"TrackedTest.ArrayDestructor" end time: May 08 19:54 MSK
 "TrackedTest.ArrayDestructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -598,7 +598,7 @@ Test Passed.
 23/102 Test: TrackedTest.ArrayCopyDeep
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=TrackedTest.ArrayCopyDeep" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.ArrayCopyDeep" start time: May 08 19:50 MSK
+"TrackedTest.ArrayCopyDeep" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -614,10 +614,10 @@ Note: Google Test filter = TrackedTest.ArrayCopyDeep
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.ArrayCopyDeep" end time: May 08 19:50 MSK
+"TrackedTest.ArrayCopyDeep" end time: May 08 19:54 MSK
 "TrackedTest.ArrayCopyDeep" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -625,7 +625,7 @@ Test Passed.
 24/102 Test: TrackedTest.ArrayMoveNoLeak
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=TrackedTest.ArrayMoveNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.ArrayMoveNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.ArrayMoveNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -638,13 +638,13 @@ Note: Google Test filter = TrackedTest.ArrayMoveNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.ArrayMoveNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.ArrayMoveNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.ArrayMoveNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -652,7 +652,7 @@ Test Passed.
 25/102 Test: TrackedTest.ArrayReassignNoLeak
 Command: "/home/athariyah/lab_templates/build/array_tests" "--gtest_filter=TrackedTest.ArrayReassignNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.ArrayReassignNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.ArrayReassignNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -665,13 +665,13 @@ Note: Google Test filter = TrackedTest.ArrayReassignNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.ArrayReassignNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.ArrayReassignNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.ArrayReassignNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -679,7 +679,7 @@ Test Passed.
 26/102 Test: OptionalBasic.DefaultEmpty
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalBasic.DefaultEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalBasic.DefaultEmpty" start time: May 08 19:50 MSK
+"OptionalBasic.DefaultEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -692,13 +692,13 @@ Note: Google Test filter = OptionalBasic.DefaultEmpty
 [----------] 1 test from OptionalBasic (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalBasic.DefaultEmpty" end time: May 08 19:50 MSK
+"OptionalBasic.DefaultEmpty" end time: May 08 19:54 MSK
 "OptionalBasic.DefaultEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -706,7 +706,7 @@ Test Passed.
 27/102 Test: OptionalBasic.ConstructWithValue
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalBasic.ConstructWithValue" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalBasic.ConstructWithValue" start time: May 08 19:50 MSK
+"OptionalBasic.ConstructWithValue" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -722,10 +722,10 @@ Note: Google Test filter = OptionalBasic.ConstructWithValue
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalBasic.ConstructWithValue" end time: May 08 19:50 MSK
+"OptionalBasic.ConstructWithValue" end time: May 08 19:54 MSK
 "OptionalBasic.ConstructWithValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -733,7 +733,7 @@ Test Passed.
 28/102 Test: OptionalBasic.ConstructWithRvalue
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalBasic.ConstructWithRvalue" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalBasic.ConstructWithRvalue" start time: May 08 19:50 MSK
+"OptionalBasic.ConstructWithRvalue" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -746,13 +746,13 @@ Note: Google Test filter = OptionalBasic.ConstructWithRvalue
 [----------] 1 test from OptionalBasic (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (4 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalBasic.ConstructWithRvalue" end time: May 08 19:50 MSK
+"OptionalBasic.ConstructWithRvalue" end time: May 08 19:54 MSK
 "OptionalBasic.ConstructWithRvalue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -760,7 +760,7 @@ Test Passed.
 29/102 Test: OptionalAccess.Value
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.Value" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAccess.Value" start time: May 08 19:50 MSK
+"OptionalAccess.Value" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -773,13 +773,13 @@ Note: Google Test filter = OptionalAccess.Value
 [----------] 1 test from OptionalAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAccess.Value" end time: May 08 19:50 MSK
+"OptionalAccess.Value" end time: May 08 19:54 MSK
 "OptionalAccess.Value" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -787,7 +787,7 @@ Test Passed.
 30/102 Test: OptionalAccess.ConstValue
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.ConstValue" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAccess.ConstValue" start time: May 08 19:50 MSK
+"OptionalAccess.ConstValue" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -803,10 +803,10 @@ Note: Google Test filter = OptionalAccess.ConstValue
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAccess.ConstValue" end time: May 08 19:50 MSK
+"OptionalAccess.ConstValue" end time: May 08 19:54 MSK
 "OptionalAccess.ConstValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -814,7 +814,7 @@ Test Passed.
 31/102 Test: OptionalAccess.ValueOr
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.ValueOr" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAccess.ValueOr" start time: May 08 19:50 MSK
+"OptionalAccess.ValueOr" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -827,13 +827,13 @@ Note: Google Test filter = OptionalAccess.ValueOr
 [----------] 1 test from OptionalAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (32 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAccess.ValueOr" end time: May 08 19:50 MSK
+"OptionalAccess.ValueOr" end time: May 08 19:54 MSK
 "OptionalAccess.ValueOr" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -841,7 +841,7 @@ Test Passed.
 32/102 Test: OptionalAccess.Dereference
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.Dereference" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAccess.Dereference" start time: May 08 19:50 MSK
+"OptionalAccess.Dereference" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -857,10 +857,10 @@ Note: Google Test filter = OptionalAccess.Dereference
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAccess.Dereference" end time: May 08 19:50 MSK
+"OptionalAccess.Dereference" end time: May 08 19:54 MSK
 "OptionalAccess.Dereference" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -868,7 +868,7 @@ Test Passed.
 33/102 Test: OptionalAccess.Arrow
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.Arrow" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAccess.Arrow" start time: May 08 19:50 MSK
+"OptionalAccess.Arrow" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -884,10 +884,10 @@ Note: Google Test filter = OptionalAccess.Arrow
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAccess.Arrow" end time: May 08 19:50 MSK
+"OptionalAccess.Arrow" end time: May 08 19:54 MSK
 "OptionalAccess.Arrow" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -895,7 +895,7 @@ Test Passed.
 34/102 Test: OptionalAccess.ConstArrow
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAccess.ConstArrow" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAccess.ConstArrow" start time: May 08 19:50 MSK
+"OptionalAccess.ConstArrow" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -908,13 +908,13 @@ Note: Google Test filter = OptionalAccess.ConstArrow
 [----------] 1 test from OptionalAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAccess.ConstArrow" end time: May 08 19:50 MSK
+"OptionalAccess.ConstArrow" end time: May 08 19:54 MSK
 "OptionalAccess.ConstArrow" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -922,7 +922,7 @@ Test Passed.
 35/102 Test: OptionalCopy.CopyConstructorEmpty
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyConstructorEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalCopy.CopyConstructorEmpty" start time: May 08 19:50 MSK
+"OptionalCopy.CopyConstructorEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -938,10 +938,10 @@ Note: Google Test filter = OptionalCopy.CopyConstructorEmpty
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalCopy.CopyConstructorEmpty" end time: May 08 19:50 MSK
+"OptionalCopy.CopyConstructorEmpty" end time: May 08 19:54 MSK
 "OptionalCopy.CopyConstructorEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -949,7 +949,7 @@ Test Passed.
 36/102 Test: OptionalCopy.CopyConstructorFilled
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyConstructorFilled" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalCopy.CopyConstructorFilled" start time: May 08 19:50 MSK
+"OptionalCopy.CopyConstructorFilled" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -962,13 +962,13 @@ Note: Google Test filter = OptionalCopy.CopyConstructorFilled
 [----------] 1 test from OptionalCopy (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalCopy.CopyConstructorFilled" end time: May 08 19:50 MSK
+"OptionalCopy.CopyConstructorFilled" end time: May 08 19:54 MSK
 "OptionalCopy.CopyConstructorFilled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -976,7 +976,7 @@ Test Passed.
 37/102 Test: OptionalCopy.CopyAssignmentFilledToEmpty
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyAssignmentFilledToEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalCopy.CopyAssignmentFilledToEmpty" start time: May 08 19:50 MSK
+"OptionalCopy.CopyAssignmentFilledToEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -989,13 +989,13 @@ Note: Google Test filter = OptionalCopy.CopyAssignmentFilledToEmpty
 [----------] 1 test from OptionalCopy (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalCopy.CopyAssignmentFilledToEmpty" end time: May 08 19:50 MSK
+"OptionalCopy.CopyAssignmentFilledToEmpty" end time: May 08 19:54 MSK
 "OptionalCopy.CopyAssignmentFilledToEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1003,7 +1003,7 @@ Test Passed.
 38/102 Test: OptionalCopy.CopyAssignmentEmptyToFilled
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyAssignmentEmptyToFilled" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalCopy.CopyAssignmentEmptyToFilled" start time: May 08 19:50 MSK
+"OptionalCopy.CopyAssignmentEmptyToFilled" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1016,13 +1016,13 @@ Note: Google Test filter = OptionalCopy.CopyAssignmentEmptyToFilled
 [----------] 1 test from OptionalCopy (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (4 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalCopy.CopyAssignmentEmptyToFilled" end time: May 08 19:50 MSK
+"OptionalCopy.CopyAssignmentEmptyToFilled" end time: May 08 19:54 MSK
 "OptionalCopy.CopyAssignmentEmptyToFilled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1030,7 +1030,7 @@ Test Passed.
 39/102 Test: OptionalCopy.CopyAssignmentFilledToFilled
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.CopyAssignmentFilledToFilled" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalCopy.CopyAssignmentFilledToFilled" start time: May 08 19:50 MSK
+"OptionalCopy.CopyAssignmentFilledToFilled" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1043,13 +1043,13 @@ Note: Google Test filter = OptionalCopy.CopyAssignmentFilledToFilled
 [----------] 1 test from OptionalCopy (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalCopy.CopyAssignmentFilledToFilled" end time: May 08 19:50 MSK
+"OptionalCopy.CopyAssignmentFilledToFilled" end time: May 08 19:54 MSK
 "OptionalCopy.CopyAssignmentFilledToFilled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1057,7 +1057,7 @@ Test Passed.
 40/102 Test: OptionalCopy.SelfAssignment
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalCopy.SelfAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalCopy.SelfAssignment" start time: May 08 19:50 MSK
+"OptionalCopy.SelfAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1067,16 +1067,16 @@ Note: Google Test filter = OptionalCopy.SelfAssignment
 [----------] 1 test from OptionalCopy
 [ RUN      ] OptionalCopy.SelfAssignment
 [       OK ] OptionalCopy.SelfAssignment (0 ms)
-[----------] 1 test from OptionalCopy (0 ms total)
+[----------] 1 test from OptionalCopy (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalCopy.SelfAssignment" end time: May 08 19:50 MSK
+"OptionalCopy.SelfAssignment" end time: May 08 19:54 MSK
 "OptionalCopy.SelfAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1084,7 +1084,7 @@ Test Passed.
 41/102 Test: OptionalMove.MoveConstructor
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalMove.MoveConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalMove.MoveConstructor" start time: May 08 19:50 MSK
+"OptionalMove.MoveConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1100,10 +1100,10 @@ Note: Google Test filter = OptionalMove.MoveConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalMove.MoveConstructor" end time: May 08 19:50 MSK
+"OptionalMove.MoveConstructor" end time: May 08 19:54 MSK
 "OptionalMove.MoveConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1111,7 +1111,7 @@ Test Passed.
 42/102 Test: OptionalMove.MoveAssignment
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalMove.MoveAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalMove.MoveAssignment" start time: May 08 19:50 MSK
+"OptionalMove.MoveAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1127,10 +1127,10 @@ Note: Google Test filter = OptionalMove.MoveAssignment
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalMove.MoveAssignment" end time: May 08 19:50 MSK
+"OptionalMove.MoveAssignment" end time: May 08 19:54 MSK
 "OptionalMove.MoveAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1138,7 +1138,7 @@ Test Passed.
 43/102 Test: OptionalAssignValue.FromLvalue
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAssignValue.FromLvalue" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAssignValue.FromLvalue" start time: May 08 19:50 MSK
+"OptionalAssignValue.FromLvalue" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1154,10 +1154,10 @@ Note: Google Test filter = OptionalAssignValue.FromLvalue
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAssignValue.FromLvalue" end time: May 08 19:50 MSK
+"OptionalAssignValue.FromLvalue" end time: May 08 19:54 MSK
 "OptionalAssignValue.FromLvalue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1165,7 +1165,7 @@ Test Passed.
 44/102 Test: OptionalAssignValue.FromRvalue
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAssignValue.FromRvalue" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAssignValue.FromRvalue" start time: May 08 19:50 MSK
+"OptionalAssignValue.FromRvalue" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1178,13 +1178,13 @@ Note: Google Test filter = OptionalAssignValue.FromRvalue
 [----------] 1 test from OptionalAssignValue (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAssignValue.FromRvalue" end time: May 08 19:50 MSK
+"OptionalAssignValue.FromRvalue" end time: May 08 19:54 MSK
 "OptionalAssignValue.FromRvalue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1192,7 +1192,7 @@ Test Passed.
 45/102 Test: OptionalAssignValue.OverwriteExisting
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalAssignValue.OverwriteExisting" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalAssignValue.OverwriteExisting" start time: May 08 19:50 MSK
+"OptionalAssignValue.OverwriteExisting" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1205,13 +1205,13 @@ Note: Google Test filter = OptionalAssignValue.OverwriteExisting
 [----------] 1 test from OptionalAssignValue (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (6 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalAssignValue.OverwriteExisting" end time: May 08 19:50 MSK
+"OptionalAssignValue.OverwriteExisting" end time: May 08 19:54 MSK
 "OptionalAssignValue.OverwriteExisting" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1219,7 +1219,7 @@ Test Passed.
 46/102 Test: OptionalModifiers.Reset
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.Reset" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.Reset" start time: May 08 19:50 MSK
+"OptionalModifiers.Reset" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1232,13 +1232,13 @@ Note: Google Test filter = OptionalModifiers.Reset
 [----------] 1 test from OptionalModifiers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.Reset" end time: May 08 19:50 MSK
+"OptionalModifiers.Reset" end time: May 08 19:54 MSK
 "OptionalModifiers.Reset" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1246,7 +1246,7 @@ Test Passed.
 47/102 Test: OptionalModifiers.ResetEmpty
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.ResetEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.ResetEmpty" start time: May 08 19:50 MSK
+"OptionalModifiers.ResetEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1256,16 +1256,16 @@ Note: Google Test filter = OptionalModifiers.ResetEmpty
 [----------] 1 test from OptionalModifiers
 [ RUN      ] OptionalModifiers.ResetEmpty
 [       OK ] OptionalModifiers.ResetEmpty (0 ms)
-[----------] 1 test from OptionalModifiers (0 ms total)
+[----------] 1 test from OptionalModifiers (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (3 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.ResetEmpty" end time: May 08 19:50 MSK
+"OptionalModifiers.ResetEmpty" end time: May 08 19:54 MSK
 "OptionalModifiers.ResetEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1273,7 +1273,7 @@ Test Passed.
 48/102 Test: OptionalModifiers.Emplace
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.Emplace" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.Emplace" start time: May 08 19:50 MSK
+"OptionalModifiers.Emplace" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1289,10 +1289,10 @@ Note: Google Test filter = OptionalModifiers.Emplace
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.Emplace" end time: May 08 19:50 MSK
+"OptionalModifiers.Emplace" end time: May 08 19:54 MSK
 "OptionalModifiers.Emplace" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1300,7 +1300,7 @@ Test Passed.
 49/102 Test: OptionalModifiers.EmplaceOverwrite
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.EmplaceOverwrite" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.EmplaceOverwrite" start time: May 08 19:50 MSK
+"OptionalModifiers.EmplaceOverwrite" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1313,13 +1313,13 @@ Note: Google Test filter = OptionalModifiers.EmplaceOverwrite
 [----------] 1 test from OptionalModifiers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.EmplaceOverwrite" end time: May 08 19:50 MSK
+"OptionalModifiers.EmplaceOverwrite" end time: May 08 19:54 MSK
 "OptionalModifiers.EmplaceOverwrite" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1327,7 +1327,7 @@ Test Passed.
 50/102 Test: OptionalModifiers.Swap
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.Swap" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.Swap" start time: May 08 19:50 MSK
+"OptionalModifiers.Swap" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1340,13 +1340,13 @@ Note: Google Test filter = OptionalModifiers.Swap
 [----------] 1 test from OptionalModifiers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (4 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.Swap" end time: May 08 19:50 MSK
+"OptionalModifiers.Swap" end time: May 08 19:54 MSK
 "OptionalModifiers.Swap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1354,7 +1354,7 @@ Test Passed.
 51/102 Test: OptionalModifiers.SwapBothFilled
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.SwapBothFilled" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.SwapBothFilled" start time: May 08 19:50 MSK
+"OptionalModifiers.SwapBothFilled" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1367,13 +1367,13 @@ Note: Google Test filter = OptionalModifiers.SwapBothFilled
 [----------] 1 test from OptionalModifiers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.SwapBothFilled" end time: May 08 19:50 MSK
+"OptionalModifiers.SwapBothFilled" end time: May 08 19:54 MSK
 "OptionalModifiers.SwapBothFilled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1381,7 +1381,7 @@ Test Passed.
 52/102 Test: OptionalModifiers.SwapBothEmpty
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalModifiers.SwapBothEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalModifiers.SwapBothEmpty" start time: May 08 19:50 MSK
+"OptionalModifiers.SwapBothEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1397,10 +1397,10 @@ Note: Google Test filter = OptionalModifiers.SwapBothEmpty
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalModifiers.SwapBothEmpty" end time: May 08 19:50 MSK
+"OptionalModifiers.SwapBothEmpty" end time: May 08 19:54 MSK
 "OptionalModifiers.SwapBothEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1408,7 +1408,7 @@ Test Passed.
 53/102 Test: OptionalComparison.BothEmpty
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.BothEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalComparison.BothEmpty" start time: May 08 19:50 MSK
+"OptionalComparison.BothEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1417,17 +1417,17 @@ Note: Google Test filter = OptionalComparison.BothEmpty
 [----------] Global test environment set-up.
 [----------] 1 test from OptionalComparison
 [ RUN      ] OptionalComparison.BothEmpty
-[       OK ] OptionalComparison.BothEmpty (0 ms)
-[----------] 1 test from OptionalComparison (0 ms total)
+[       OK ] OptionalComparison.BothEmpty (7 ms)
+[----------] 1 test from OptionalComparison (8 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (8 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalComparison.BothEmpty" end time: May 08 19:50 MSK
+"OptionalComparison.BothEmpty" end time: May 08 19:54 MSK
 "OptionalComparison.BothEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1435,7 +1435,7 @@ Test Passed.
 54/102 Test: OptionalComparison.BothFilledEqual
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.BothFilledEqual" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalComparison.BothFilledEqual" start time: May 08 19:50 MSK
+"OptionalComparison.BothFilledEqual" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1448,13 +1448,13 @@ Note: Google Test filter = OptionalComparison.BothFilledEqual
 [----------] 1 test from OptionalComparison (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalComparison.BothFilledEqual" end time: May 08 19:50 MSK
+"OptionalComparison.BothFilledEqual" end time: May 08 19:54 MSK
 "OptionalComparison.BothFilledEqual" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1462,7 +1462,7 @@ Test Passed.
 55/102 Test: OptionalComparison.BothFilledNotEqual
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.BothFilledNotEqual" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalComparison.BothFilledNotEqual" start time: May 08 19:50 MSK
+"OptionalComparison.BothFilledNotEqual" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1471,17 +1471,17 @@ Note: Google Test filter = OptionalComparison.BothFilledNotEqual
 [----------] Global test environment set-up.
 [----------] 1 test from OptionalComparison
 [ RUN      ] OptionalComparison.BothFilledNotEqual
-[       OK ] OptionalComparison.BothFilledNotEqual (0 ms)
-[----------] 1 test from OptionalComparison (10 ms total)
+[       OK ] OptionalComparison.BothFilledNotEqual (1 ms)
+[----------] 1 test from OptionalComparison (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (10 ms total)
+[==========] 1 test from 1 test suite ran. (4 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalComparison.BothFilledNotEqual" end time: May 08 19:50 MSK
+"OptionalComparison.BothFilledNotEqual" end time: May 08 19:54 MSK
 "OptionalComparison.BothFilledNotEqual" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1489,7 +1489,7 @@ Test Passed.
 56/102 Test: OptionalComparison.OneEmptyOneFilled
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=OptionalComparison.OneEmptyOneFilled" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"OptionalComparison.OneEmptyOneFilled" start time: May 08 19:50 MSK
+"OptionalComparison.OneEmptyOneFilled" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1502,13 +1502,13 @@ Note: Google Test filter = OptionalComparison.OneEmptyOneFilled
 [----------] 1 test from OptionalComparison (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (11 ms total)
+[==========] 1 test from 1 test suite ran. (6 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"OptionalComparison.OneEmptyOneFilled" end time: May 08 19:50 MSK
+"OptionalComparison.OneEmptyOneFilled" end time: May 08 19:54 MSK
 "OptionalComparison.OneEmptyOneFilled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1516,7 +1516,7 @@ Test Passed.
 57/102 Test: TrackedTest.OptionalDestructor
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalDestructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.OptionalDestructor" start time: May 08 19:50 MSK
+"TrackedTest.OptionalDestructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1532,10 +1532,10 @@ Note: Google Test filter = TrackedTest.OptionalDestructor
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.OptionalDestructor" end time: May 08 19:50 MSK
+"TrackedTest.OptionalDestructor" end time: May 08 19:54 MSK
 "TrackedTest.OptionalDestructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1543,7 +1543,7 @@ Test Passed.
 58/102 Test: TrackedTest.OptionalResetDestroys
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalResetDestroys" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.OptionalResetDestroys" start time: May 08 19:50 MSK
+"TrackedTest.OptionalResetDestroys" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1556,13 +1556,13 @@ Note: Google Test filter = TrackedTest.OptionalResetDestroys
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.OptionalResetDestroys" end time: May 08 19:50 MSK
+"TrackedTest.OptionalResetDestroys" end time: May 08 19:54 MSK
 "TrackedTest.OptionalResetDestroys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1570,7 +1570,7 @@ Test Passed.
 59/102 Test: TrackedTest.OptionalEmplaceDestroysPrevious
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalEmplaceDestroysPrevious" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.OptionalEmplaceDestroysPrevious" start time: May 08 19:50 MSK
+"TrackedTest.OptionalEmplaceDestroysPrevious" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1583,13 +1583,13 @@ Note: Google Test filter = TrackedTest.OptionalEmplaceDestroysPrevious
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.OptionalEmplaceDestroysPrevious" end time: May 08 19:50 MSK
+"TrackedTest.OptionalEmplaceDestroysPrevious" end time: May 08 19:54 MSK
 "TrackedTest.OptionalEmplaceDestroysPrevious" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1597,7 +1597,7 @@ Test Passed.
 60/102 Test: TrackedTest.OptionalCopyNoLeak
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalCopyNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.OptionalCopyNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.OptionalCopyNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1613,10 +1613,10 @@ Note: Google Test filter = TrackedTest.OptionalCopyNoLeak
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.OptionalCopyNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.OptionalCopyNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.OptionalCopyNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1624,7 +1624,7 @@ Test Passed.
 61/102 Test: TrackedTest.OptionalMoveNoLeak
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalMoveNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.OptionalMoveNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.OptionalMoveNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1633,17 +1633,17 @@ Note: Google Test filter = TrackedTest.OptionalMoveNoLeak
 [----------] Global test environment set-up.
 [----------] 1 test from TrackedTest
 [ RUN      ] TrackedTest.OptionalMoveNoLeak
-[       OK ] TrackedTest.OptionalMoveNoLeak (0 ms)
-[----------] 1 test from TrackedTest (0 ms total)
+[       OK ] TrackedTest.OptionalMoveNoLeak (1 ms)
+[----------] 1 test from TrackedTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.OptionalMoveNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.OptionalMoveNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.OptionalMoveNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1651,7 +1651,7 @@ Test Passed.
 62/102 Test: TrackedTest.OptionalAssignmentNoLeak
 Command: "/home/athariyah/lab_templates/build/optional_tests" "--gtest_filter=TrackedTest.OptionalAssignmentNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.OptionalAssignmentNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.OptionalAssignmentNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1664,13 +1664,13 @@ Note: Google Test filter = TrackedTest.OptionalAssignmentNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.OptionalAssignmentNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.OptionalAssignmentNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.OptionalAssignmentNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1678,7 +1678,7 @@ Test Passed.
 63/102 Test: UniquePtrSize.StatelessDeleterNoOverhead
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrSize.StatelessDeleterNoOverhead" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrSize.StatelessDeleterNoOverhead" start time: May 08 19:50 MSK
+"UniquePtrSize.StatelessDeleterNoOverhead" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1691,13 +1691,13 @@ Note: Google Test filter = UniquePtrSize.StatelessDeleterNoOverhead
 [----------] 1 test from UniquePtrSize (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrSize.StatelessDeleterNoOverhead" end time: May 08 19:50 MSK
+"UniquePtrSize.StatelessDeleterNoOverhead" end time: May 08 19:54 MSK
 "UniquePtrSize.StatelessDeleterNoOverhead" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1705,7 +1705,7 @@ Test Passed.
 64/102 Test: UniquePtrSize.StatefulDeleterIncreasesSize
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrSize.StatefulDeleterIncreasesSize" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrSize.StatefulDeleterIncreasesSize" start time: May 08 19:50 MSK
+"UniquePtrSize.StatefulDeleterIncreasesSize" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1718,13 +1718,13 @@ Note: Google Test filter = UniquePtrSize.StatefulDeleterIncreasesSize
 [----------] 1 test from UniquePtrSize (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrSize.StatefulDeleterIncreasesSize" end time: May 08 19:50 MSK
+"UniquePtrSize.StatefulDeleterIncreasesSize" end time: May 08 19:54 MSK
 "UniquePtrSize.StatefulDeleterIncreasesSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1732,7 +1732,7 @@ Test Passed.
 65/102 Test: UniquePtrBasic.DefaultNull
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrBasic.DefaultNull" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrBasic.DefaultNull" start time: May 08 19:50 MSK
+"UniquePtrBasic.DefaultNull" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1745,13 +1745,13 @@ Note: Google Test filter = UniquePtrBasic.DefaultNull
 [----------] 1 test from UniquePtrBasic (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrBasic.DefaultNull" end time: May 08 19:50 MSK
+"UniquePtrBasic.DefaultNull" end time: May 08 19:54 MSK
 "UniquePtrBasic.DefaultNull" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1759,7 +1759,7 @@ Test Passed.
 66/102 Test: UniquePtrBasic.ConstructFromPointer
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrBasic.ConstructFromPointer" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrBasic.ConstructFromPointer" start time: May 08 19:50 MSK
+"UniquePtrBasic.ConstructFromPointer" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1775,10 +1775,10 @@ Note: Google Test filter = UniquePtrBasic.ConstructFromPointer
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrBasic.ConstructFromPointer" end time: May 08 19:50 MSK
+"UniquePtrBasic.ConstructFromPointer" end time: May 08 19:54 MSK
 "UniquePtrBasic.ConstructFromPointer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1786,7 +1786,7 @@ Test Passed.
 67/102 Test: UniquePtrAccess.Dereference
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrAccess.Dereference" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrAccess.Dereference" start time: May 08 19:50 MSK
+"UniquePtrAccess.Dereference" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1799,13 +1799,13 @@ Note: Google Test filter = UniquePtrAccess.Dereference
 [----------] 1 test from UniquePtrAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrAccess.Dereference" end time: May 08 19:50 MSK
+"UniquePtrAccess.Dereference" end time: May 08 19:54 MSK
 "UniquePtrAccess.Dereference" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1813,7 +1813,7 @@ Test Passed.
 68/102 Test: UniquePtrAccess.Arrow
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrAccess.Arrow" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrAccess.Arrow" start time: May 08 19:50 MSK
+"UniquePtrAccess.Arrow" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1826,13 +1826,13 @@ Note: Google Test filter = UniquePtrAccess.Arrow
 [----------] 1 test from UniquePtrAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrAccess.Arrow" end time: May 08 19:50 MSK
+"UniquePtrAccess.Arrow" end time: May 08 19:54 MSK
 "UniquePtrAccess.Arrow" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1840,7 +1840,7 @@ Test Passed.
 69/102 Test: UniquePtrAccess.ConstGet
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrAccess.ConstGet" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrAccess.ConstGet" start time: May 08 19:50 MSK
+"UniquePtrAccess.ConstGet" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1853,13 +1853,13 @@ Note: Google Test filter = UniquePtrAccess.ConstGet
 [----------] 1 test from UniquePtrAccess (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrAccess.ConstGet" end time: May 08 19:50 MSK
+"UniquePtrAccess.ConstGet" end time: May 08 19:54 MSK
 "UniquePtrAccess.ConstGet" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1867,7 +1867,7 @@ Test Passed.
 70/102 Test: UniquePtrMove.MoveConstructor
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrMove.MoveConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrMove.MoveConstructor" start time: May 08 19:50 MSK
+"UniquePtrMove.MoveConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1880,13 +1880,13 @@ Note: Google Test filter = UniquePtrMove.MoveConstructor
 [----------] 1 test from UniquePtrMove (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrMove.MoveConstructor" end time: May 08 19:50 MSK
+"UniquePtrMove.MoveConstructor" end time: May 08 19:54 MSK
 "UniquePtrMove.MoveConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1894,7 +1894,7 @@ Test Passed.
 71/102 Test: UniquePtrMove.MoveAssignment
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrMove.MoveAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrMove.MoveAssignment" start time: May 08 19:50 MSK
+"UniquePtrMove.MoveAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1907,13 +1907,13 @@ Note: Google Test filter = UniquePtrMove.MoveAssignment
 [----------] 1 test from UniquePtrMove (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrMove.MoveAssignment" end time: May 08 19:50 MSK
+"UniquePtrMove.MoveAssignment" end time: May 08 19:54 MSK
 "UniquePtrMove.MoveAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1921,7 +1921,7 @@ Test Passed.
 72/102 Test: UniquePtrMove.MoveAssignToEmpty
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrMove.MoveAssignToEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrMove.MoveAssignToEmpty" start time: May 08 19:50 MSK
+"UniquePtrMove.MoveAssignToEmpty" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1940,7 +1940,7 @@ Note: Google Test filter = UniquePtrMove.MoveAssignToEmpty
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrMove.MoveAssignToEmpty" end time: May 08 19:50 MSK
+"UniquePtrMove.MoveAssignToEmpty" end time: May 08 19:54 MSK
 "UniquePtrMove.MoveAssignToEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1948,7 +1948,7 @@ Test Passed.
 73/102 Test: UniquePtrModifiers.Release
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrModifiers.Release" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrModifiers.Release" start time: May 08 19:50 MSK
+"UniquePtrModifiers.Release" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1958,16 +1958,16 @@ Note: Google Test filter = UniquePtrModifiers.Release
 [----------] 1 test from UniquePtrModifiers
 [ RUN      ] UniquePtrModifiers.Release
 [       OK ] UniquePtrModifiers.Release (0 ms)
-[----------] 1 test from UniquePtrModifiers (0 ms total)
+[----------] 1 test from UniquePtrModifiers (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (3 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrModifiers.Release" end time: May 08 19:50 MSK
+"UniquePtrModifiers.Release" end time: May 08 19:54 MSK
 "UniquePtrModifiers.Release" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1975,7 +1975,7 @@ Test Passed.
 74/102 Test: UniquePtrModifiers.ResetToNew
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrModifiers.ResetToNew" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrModifiers.ResetToNew" start time: May 08 19:50 MSK
+"UniquePtrModifiers.ResetToNew" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1991,10 +1991,10 @@ Note: Google Test filter = UniquePtrModifiers.ResetToNew
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrModifiers.ResetToNew" end time: May 08 19:50 MSK
+"UniquePtrModifiers.ResetToNew" end time: May 08 19:54 MSK
 "UniquePtrModifiers.ResetToNew" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2002,7 +2002,7 @@ Test Passed.
 75/102 Test: UniquePtrModifiers.ResetToNull
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrModifiers.ResetToNull" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrModifiers.ResetToNull" start time: May 08 19:50 MSK
+"UniquePtrModifiers.ResetToNull" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2015,13 +2015,13 @@ Note: Google Test filter = UniquePtrModifiers.ResetToNull
 [----------] 1 test from UniquePtrModifiers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrModifiers.ResetToNull" end time: May 08 19:50 MSK
+"UniquePtrModifiers.ResetToNull" end time: May 08 19:54 MSK
 "UniquePtrModifiers.ResetToNull" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2029,7 +2029,7 @@ Test Passed.
 76/102 Test: UniquePtrModifiers.Swap
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrModifiers.Swap" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrModifiers.Swap" start time: May 08 19:50 MSK
+"UniquePtrModifiers.Swap" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2042,13 +2042,13 @@ Note: Google Test filter = UniquePtrModifiers.Swap
 [----------] 1 test from UniquePtrModifiers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrModifiers.Swap" end time: May 08 19:50 MSK
+"UniquePtrModifiers.Swap" end time: May 08 19:54 MSK
 "UniquePtrModifiers.Swap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2056,7 +2056,7 @@ Test Passed.
 77/102 Test: UniquePtrDeleter.CustomDeleter
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrDeleter.CustomDeleter" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrDeleter.CustomDeleter" start time: May 08 19:50 MSK
+"UniquePtrDeleter.CustomDeleter" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2069,13 +2069,13 @@ Note: Google Test filter = UniquePtrDeleter.CustomDeleter
 [----------] 1 test from UniquePtrDeleter (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrDeleter.CustomDeleter" end time: May 08 19:50 MSK
+"UniquePtrDeleter.CustomDeleter" end time: May 08 19:54 MSK
 "UniquePtrDeleter.CustomDeleter" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2083,7 +2083,7 @@ Test Passed.
 78/102 Test: UniquePtrDeleter.GetDeleter
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrDeleter.GetDeleter" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrDeleter.GetDeleter" start time: May 08 19:50 MSK
+"UniquePtrDeleter.GetDeleter" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2096,13 +2096,13 @@ Note: Google Test filter = UniquePtrDeleter.GetDeleter
 [----------] 1 test from UniquePtrDeleter (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrDeleter.GetDeleter" end time: May 08 19:50 MSK
+"UniquePtrDeleter.GetDeleter" end time: May 08 19:54 MSK
 "UniquePtrDeleter.GetDeleter" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2110,7 +2110,7 @@ Test Passed.
 79/102 Test: UniquePtrDeleter.ResetUsesDeleter
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrDeleter.ResetUsesDeleter" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrDeleter.ResetUsesDeleter" start time: May 08 19:50 MSK
+"UniquePtrDeleter.ResetUsesDeleter" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2123,13 +2123,13 @@ Note: Google Test filter = UniquePtrDeleter.ResetUsesDeleter
 [----------] 1 test from UniquePtrDeleter (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrDeleter.ResetUsesDeleter" end time: May 08 19:50 MSK
+"UniquePtrDeleter.ResetUsesDeleter" end time: May 08 19:54 MSK
 "UniquePtrDeleter.ResetUsesDeleter" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2137,7 +2137,7 @@ Test Passed.
 80/102 Test: MakeUnique.Basic
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=MakeUnique.Basic" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"MakeUnique.Basic" start time: May 08 19:50 MSK
+"MakeUnique.Basic" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2150,13 +2150,13 @@ Note: Google Test filter = MakeUnique.Basic
 [----------] 1 test from MakeUnique (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"MakeUnique.Basic" end time: May 08 19:50 MSK
+"MakeUnique.Basic" end time: May 08 19:54 MSK
 "MakeUnique.Basic" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2164,7 +2164,7 @@ Test Passed.
 81/102 Test: MakeUnique.WithString
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=MakeUnique.WithString" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"MakeUnique.WithString" start time: May 08 19:50 MSK
+"MakeUnique.WithString" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2180,10 +2180,10 @@ Note: Google Test filter = MakeUnique.WithString
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"MakeUnique.WithString" end time: May 08 19:50 MSK
+"MakeUnique.WithString" end time: May 08 19:54 MSK
 "MakeUnique.WithString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2191,7 +2191,7 @@ Test Passed.
 82/102 Test: MakeUnique.DefaultConstructed
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=MakeUnique.DefaultConstructed" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"MakeUnique.DefaultConstructed" start time: May 08 19:50 MSK
+"MakeUnique.DefaultConstructed" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2207,10 +2207,10 @@ Note: Google Test filter = MakeUnique.DefaultConstructed
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"MakeUnique.DefaultConstructed" end time: May 08 19:50 MSK
+"MakeUnique.DefaultConstructed" end time: May 08 19:54 MSK
 "MakeUnique.DefaultConstructed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2218,7 +2218,7 @@ Test Passed.
 83/102 Test: TrackedTest.UniquePtrDestructor
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrDestructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrDestructor" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrDestructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2231,13 +2231,13 @@ Note: Google Test filter = TrackedTest.UniquePtrDestructor
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrDestructor" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrDestructor" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrDestructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2245,7 +2245,7 @@ Test Passed.
 84/102 Test: TrackedTest.UniquePtrResetDestroys
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrResetDestroys" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrResetDestroys" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrResetDestroys" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2258,13 +2258,13 @@ Note: Google Test filter = TrackedTest.UniquePtrResetDestroys
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrResetDestroys" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrResetDestroys" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrResetDestroys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2272,7 +2272,7 @@ Test Passed.
 85/102 Test: TrackedTest.UniquePtrMoveNoLeak
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrMoveNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrMoveNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrMoveNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2285,13 +2285,13 @@ Note: Google Test filter = TrackedTest.UniquePtrMoveNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrMoveNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrMoveNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrMoveNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2299,7 +2299,7 @@ Test Passed.
 86/102 Test: TrackedTest.UniquePtrMoveAssignNoLeak
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrMoveAssignNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrMoveAssignNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrMoveAssignNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2312,13 +2312,13 @@ Note: Google Test filter = TrackedTest.UniquePtrMoveAssignNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrMoveAssignNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrMoveAssignNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrMoveAssignNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2326,7 +2326,7 @@ Test Passed.
 87/102 Test: TrackedTest.MakeUniqueNoLeak
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.MakeUniqueNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.MakeUniqueNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.MakeUniqueNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2339,13 +2339,13 @@ Note: Google Test filter = TrackedTest.MakeUniqueNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.MakeUniqueNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.MakeUniqueNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.MakeUniqueNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2353,7 +2353,7 @@ Test Passed.
 88/102 Test: TrackedTest.UniquePtrArrayDestructor
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrArrayDestructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrArrayDestructor" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrArrayDestructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2366,13 +2366,13 @@ Note: Google Test filter = TrackedTest.UniquePtrArrayDestructor
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrArrayDestructor" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrArrayDestructor" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrArrayDestructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2380,7 +2380,7 @@ Test Passed.
 89/102 Test: TrackedTest.UniquePtrArrayMoveNoLeak
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrArrayMoveNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrArrayMoveNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrArrayMoveNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2393,13 +2393,13 @@ Note: Google Test filter = TrackedTest.UniquePtrArrayMoveNoLeak
 [----------] 1 test from TrackedTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrArrayMoveNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrArrayMoveNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrArrayMoveNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2407,7 +2407,7 @@ Test Passed.
 90/102 Test: TrackedTest.UniquePtrArrayResetNoLeak
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=TrackedTest.UniquePtrArrayResetNoLeak" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"TrackedTest.UniquePtrArrayResetNoLeak" start time: May 08 19:50 MSK
+"TrackedTest.UniquePtrArrayResetNoLeak" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2423,10 +2423,10 @@ Note: Google Test filter = TrackedTest.UniquePtrArrayResetNoLeak
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"TrackedTest.UniquePtrArrayResetNoLeak" end time: May 08 19:50 MSK
+"TrackedTest.UniquePtrArrayResetNoLeak" end time: May 08 19:54 MSK
 "TrackedTest.UniquePtrArrayResetNoLeak" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2434,7 +2434,7 @@ Test Passed.
 91/102 Test: UniquePtrArray.DefaultNull
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.DefaultNull" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.DefaultNull" start time: May 08 19:50 MSK
+"UniquePtrArray.DefaultNull" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2447,13 +2447,13 @@ Note: Google Test filter = UniquePtrArray.DefaultNull
 [----------] 1 test from UniquePtrArray (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.DefaultNull" end time: May 08 19:50 MSK
+"UniquePtrArray.DefaultNull" end time: May 08 19:54 MSK
 "UniquePtrArray.DefaultNull" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2461,7 +2461,7 @@ Test Passed.
 92/102 Test: UniquePtrArray.ConstructFromPointer
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.ConstructFromPointer" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.ConstructFromPointer" start time: May 08 19:50 MSK
+"UniquePtrArray.ConstructFromPointer" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2474,13 +2474,13 @@ Note: Google Test filter = UniquePtrArray.ConstructFromPointer
 [----------] 1 test from UniquePtrArray (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.ConstructFromPointer" end time: May 08 19:50 MSK
+"UniquePtrArray.ConstructFromPointer" end time: May 08 19:54 MSK
 "UniquePtrArray.ConstructFromPointer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2488,7 +2488,7 @@ Test Passed.
 93/102 Test: UniquePtrArray.Subscript
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.Subscript" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.Subscript" start time: May 08 19:50 MSK
+"UniquePtrArray.Subscript" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2504,10 +2504,10 @@ Note: Google Test filter = UniquePtrArray.Subscript
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.Subscript" end time: May 08 19:50 MSK
+"UniquePtrArray.Subscript" end time: May 08 19:54 MSK
 "UniquePtrArray.Subscript" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2515,7 +2515,7 @@ Test Passed.
 94/102 Test: UniquePtrArray.SubscriptWrite
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.SubscriptWrite" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.SubscriptWrite" start time: May 08 19:50 MSK
+"UniquePtrArray.SubscriptWrite" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2531,10 +2531,10 @@ Note: Google Test filter = UniquePtrArray.SubscriptWrite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.SubscriptWrite" end time: May 08 19:50 MSK
+"UniquePtrArray.SubscriptWrite" end time: May 08 19:54 MSK
 "UniquePtrArray.SubscriptWrite" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2542,7 +2542,7 @@ Test Passed.
 95/102 Test: UniquePtrArray.ConstSubscript
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.ConstSubscript" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.ConstSubscript" start time: May 08 19:50 MSK
+"UniquePtrArray.ConstSubscript" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2555,13 +2555,13 @@ Note: Google Test filter = UniquePtrArray.ConstSubscript
 [----------] 1 test from UniquePtrArray (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.ConstSubscript" end time: May 08 19:50 MSK
+"UniquePtrArray.ConstSubscript" end time: May 08 19:54 MSK
 "UniquePtrArray.ConstSubscript" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2569,7 +2569,7 @@ Test Passed.
 96/102 Test: UniquePtrArray.MoveConstructor
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.MoveConstructor" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.MoveConstructor" start time: May 08 19:50 MSK
+"UniquePtrArray.MoveConstructor" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2585,10 +2585,10 @@ Note: Google Test filter = UniquePtrArray.MoveConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.MoveConstructor" end time: May 08 19:50 MSK
+"UniquePtrArray.MoveConstructor" end time: May 08 19:54 MSK
 "UniquePtrArray.MoveConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2596,7 +2596,7 @@ Test Passed.
 97/102 Test: UniquePtrArray.MoveAssignment
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.MoveAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.MoveAssignment" start time: May 08 19:50 MSK
+"UniquePtrArray.MoveAssignment" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2612,10 +2612,10 @@ Note: Google Test filter = UniquePtrArray.MoveAssignment
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.MoveAssignment" end time: May 08 19:50 MSK
+"UniquePtrArray.MoveAssignment" end time: May 08 19:54 MSK
 "UniquePtrArray.MoveAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2623,7 +2623,7 @@ Test Passed.
 98/102 Test: UniquePtrArray.Release
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.Release" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.Release" start time: May 08 19:50 MSK
+"UniquePtrArray.Release" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2639,10 +2639,10 @@ Note: Google Test filter = UniquePtrArray.Release
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.Release" end time: May 08 19:50 MSK
+"UniquePtrArray.Release" end time: May 08 19:54 MSK
 "UniquePtrArray.Release" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2650,7 +2650,7 @@ Test Passed.
 99/102 Test: UniquePtrArray.Reset
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.Reset" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.Reset" start time: May 08 19:50 MSK
+"UniquePtrArray.Reset" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2663,13 +2663,13 @@ Note: Google Test filter = UniquePtrArray.Reset
 [----------] 1 test from UniquePtrArray (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.Reset" end time: May 08 19:50 MSK
+"UniquePtrArray.Reset" end time: May 08 19:54 MSK
 "UniquePtrArray.Reset" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2677,7 +2677,7 @@ Test Passed.
 100/102 Test: UniquePtrArray.ResetToNull
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.ResetToNull" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.ResetToNull" start time: May 08 19:50 MSK
+"UniquePtrArray.ResetToNull" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2690,13 +2690,13 @@ Note: Google Test filter = UniquePtrArray.ResetToNull
 [----------] 1 test from UniquePtrArray (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.ResetToNull" end time: May 08 19:50 MSK
+"UniquePtrArray.ResetToNull" end time: May 08 19:54 MSK
 "UniquePtrArray.ResetToNull" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2704,7 +2704,7 @@ Test Passed.
 101/102 Test: UniquePtrArray.Swap
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.Swap" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.Swap" start time: May 08 19:50 MSK
+"UniquePtrArray.Swap" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2717,13 +2717,13 @@ Note: Google Test filter = UniquePtrArray.Swap
 [----------] 1 test from UniquePtrArray (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.Swap" end time: May 08 19:50 MSK
+"UniquePtrArray.Swap" end time: May 08 19:54 MSK
 "UniquePtrArray.Swap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2731,7 +2731,7 @@ Test Passed.
 102/102 Test: UniquePtrArray.CustomDeleter
 Command: "/home/athariyah/lab_templates/build/unique_ptr_tests" "--gtest_filter=UniquePtrArray.CustomDeleter" "--gtest_also_run_disabled_tests"
 Directory: /home/athariyah/lab_templates/build
-"UniquePtrArray.CustomDeleter" start time: May 08 19:50 MSK
+"UniquePtrArray.CustomDeleter" start time: May 08 19:54 MSK
 Output:
 ----------------------------------------------------------
 Running main() from /home/athariyah/lab_templates/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -2747,11 +2747,11 @@ Note: Google Test filter = UniquePtrArray.CustomDeleter
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"UniquePtrArray.CustomDeleter" end time: May 08 19:50 MSK
+"UniquePtrArray.CustomDeleter" end time: May 08 19:54 MSK
 "UniquePtrArray.CustomDeleter" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 08 19:50 MSK
+End testing: May 08 19:54 MSK
