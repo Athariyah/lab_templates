@@ -7,51 +7,36 @@
 template <typename T, typename Deleter = std::default_delete<T>>
 class UniquePtr {
 public:
-    // ======================== Constructors ========================
-
     UniquePtr();
     explicit UniquePtr(T* ptr);
     UniquePtr(T* ptr, const Deleter& deleter);
     UniquePtr(T* ptr, Deleter&& deleter);
 
-    // =================== No copy ==================================
-
-    UniquePtr(const UniquePtr&)            = delete;
+    UniquePtr(const UniquePtr&) = delete;
     UniquePtr& operator=(const UniquePtr&) = delete;
-
-    // =================== Move ====================================
 
     UniquePtr(UniquePtr&& other);
     UniquePtr& operator=(UniquePtr&& other);
 
-    // =================== Destructor ==============================
-
     ~UniquePtr();
-
-    // =================== Observers ===============================
 
     T* get();
     const T* get() const;
-
     explicit operator bool() const;
-
-    T&       operator*();
+    T& operator*();
     const T& operator*() const;
-
     T* operator->();
     const T* operator->() const;
-
-    Deleter&       get_deleter();
+    Deleter& get_deleter();
     const Deleter& get_deleter() const;
-
-    // =================== Modifiers ===============================
 
     T* release();
     void reset(T* ptr = nullptr);
     void swap(UniquePtr& other);
 
 private:
-    // Empty Base Optimization (EBO) helper
+    // Эта структура наследуется от Deleter. Если Deleter пустой, 
+    // он не будет занимать лишнего места (Empty Base Optimization).
     struct CompressedPtr : Deleter {
         T* ptr;
         CompressedPtr() : Deleter(), ptr(nullptr) {}
@@ -63,48 +48,30 @@ private:
     CompressedPtr impl_;
 };
 
-// =====================================================================
-//  Partial specialization for arrays: UniquePtr<T[]>
-// =====================================================================
-
+// Специализация для массивов T[]
 template <typename T, typename Deleter>
 class UniquePtr<T[], Deleter> {
 public:
-    // ======================== Constructors ========================
-
     UniquePtr();
     explicit UniquePtr(T* ptr);
     UniquePtr(T* ptr, const Deleter& deleter);
     UniquePtr(T* ptr, Deleter&& deleter);
 
-    // =================== No copy ==================================
-
-    UniquePtr(const UniquePtr&)            = delete;
+    UniquePtr(const UniquePtr&) = delete;
     UniquePtr& operator=(const UniquePtr&) = delete;
-
-    // =================== Move ====================================
 
     UniquePtr(UniquePtr&& other);
     UniquePtr& operator=(UniquePtr&& other);
 
-    // =================== Destructor ==============================
-
     ~UniquePtr();
-
-    // =================== Observers ===============================
 
     T* get();
     const T* get() const;
-
     explicit operator bool() const;
-
-    T&       operator[](size_t index);
+    T& operator[](size_t index);
     const T& operator[](size_t index) const;
-
-    Deleter&       get_deleter();
+    Deleter& get_deleter();
     const Deleter& get_deleter() const;
-
-    // =================== Modifiers ===============================
 
     T* release();
     void reset(T* ptr = nullptr);
@@ -121,17 +88,15 @@ private:
 
     CompressedPtr impl_;
 };
-
-// =================== Free function ===============================
 
 template <typename T, typename... Args>
 UniquePtr<T> make_unique(Args&&... args);
 
 // =====================================================================
-//  IMPLEMENTATION
+// РЕАЛИЗАЦИЯ (IMPLEMENTATION)
 // =====================================================================
 
-// Single object UniquePtr
+// --- UniquePtr<T> ---
 
 template <typename T, typename Deleter>
 UniquePtr<T, Deleter>::UniquePtr() : impl_() {}
@@ -207,7 +172,7 @@ void UniquePtr<T, Deleter>::swap(UniquePtr& other) {
     std::swap(get_deleter(), other.get_deleter());
 }
 
-// Array specialization UniquePtr<T[]>
+// --- UniquePtr<T[]> ---
 
 template <typename T, typename Deleter>
 UniquePtr<T[], Deleter>::UniquePtr() : impl_() {}
@@ -276,8 +241,6 @@ void UniquePtr<T[], Deleter>::swap(UniquePtr& other) {
     std::swap(impl_.ptr, other.impl_.ptr);
     std::swap(get_deleter(), other.get_deleter());
 }
-
-// make_unique
 
 template <typename T, typename... Args>
 UniquePtr<T> make_unique(Args&&... args) {
